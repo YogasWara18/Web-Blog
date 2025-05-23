@@ -15,8 +15,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
       <title>{metadata?.title}</title>
-      <body className={`antialiased`}>{children}</body>
+      <meta>{metadata?.description}</meta>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet"/>
+      </head>
+      <body className={`antialiased font-[Sora]`}>{children}</body>
     </html>
   );
 }
