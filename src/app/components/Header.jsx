@@ -9,7 +9,7 @@ const Header = () => {
         <Link href="/">
           <h1 className="text-2xl lg:text-3xl font-bold ms-3">Bloggy</h1>
         </Link>
-        <Menubar className={"text-white bg-[#0000]"}>
+        <Menubar className={"text-white bg-[#0000] border-0 shadow-none hidden lg:flex"}>
           <MenubarMenu>
             <MenubarTrigger>
               <Link href="/">Home</Link>
