@@ -26,6 +26,12 @@ const Header = () => {
               <MenubarItem>
                 <Link className="/dashboard">Overview</Link>
               </MenubarItem>
+              <MenubarItem>
+                <Link className="/dashboard/article/manage">Create Article</Link>
+              </MenubarItem>
+              <MenubarItem>
+                <Link className="/dashboard/article/all">Articles</Link>
+              </MenubarItem>
             </MenubarContent>
           </MenubarMenu>
         </Menubar>
