@@ -9,7 +9,7 @@ const Header = () => {
         <Link href="/">
           <h1 className="text-2xl lg:text-3xl font-bold ms-3">Bloggy</h1>
         </Link>
-        <Menubar>
+        <Menubar className={"text-white bg-[#0000]"}>
           <MenubarMenu>
             <MenubarTrigger>
               <Link href="/">Home</Link>
@@ -24,13 +24,16 @@ const Header = () => {
             <MenubarTrigger>Dashboard</MenubarTrigger>
             <MenubarContent>
               <MenubarItem>
-                <Link className="/dashboard">Overview</Link>
+                <Link href="/dashboard">Overview</Link>
               </MenubarItem>
               <MenubarItem>
-                <Link className="/dashboard/article/manage">Create Article</Link>
+                <Link href="/dashboard/article/manage">Create Article</Link>
               </MenubarItem>
               <MenubarItem>
-                <Link className="/dashboard/article/all">Articles</Link>
+                <Link href="/dashboard/article/all">Articles</Link>
+              </MenubarItem>
+              <MenubarItem>
+                <Link href="/dashboard/">Edit profile</Link>
               </MenubarItem>
             </MenubarContent>
           </MenubarMenu>
