@@ -37,6 +37,23 @@ const Header = () => {
               </MenubarItem>
             </MenubarContent>
           </MenubarMenu>
+           <MenubarMenu>
+            <MenubarTrigger>Pages</MenubarTrigger>
+            <MenubarContent>
+              <MenubarItem>
+                <Link href="/dashboard">Overview</Link>
+              </MenubarItem>
+              <MenubarItem>
+                <Link href="/dashboard/article/manage">Create Article</Link>
+              </MenubarItem>
+              <MenubarItem>
+                <Link href="/dashboard/article/all">Articles</Link>
+              </MenubarItem>
+              <MenubarItem>
+                <Link href="/dashboard/">Edit profile</Link>
+              </MenubarItem>
+            </MenubarContent>
+          </MenubarMenu>
         </Menubar>
       </header>
     </div>
