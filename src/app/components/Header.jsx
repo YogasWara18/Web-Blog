@@ -41,16 +41,10 @@ const Header = () => {
             <MenubarTrigger>Pages</MenubarTrigger>
             <MenubarContent>
               <MenubarItem>
-                <Link href="/dashboard">Overview</Link>
+                <Link href="/pages/about">About</Link>
               </MenubarItem>
               <MenubarItem>
-                <Link href="/dashboard/article/manage">Create Article</Link>
-              </MenubarItem>
-              <MenubarItem>
-                <Link href="/dashboard/article/all">Articles</Link>
-              </MenubarItem>
-              <MenubarItem>
-                <Link href="/dashboard/">Edit profile</Link>
+                <Link href="/pages/contact">Contact</Link>
               </MenubarItem>
             </MenubarContent>
           </MenubarMenu>
